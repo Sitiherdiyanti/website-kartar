@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #003366, #000000); /* Blue and Black gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1000px;
+    background: #333;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3); /* Stronger shadow */
+}
+
+.welcome-section {
+    background: linear-gradient(135deg, #0066cc, #333); /* Lighter blue to dark */
+    flex: 1;
+    padding: 50px 30px;
+    text-align: center;
+    color: #fff;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.welcome-section h1 {
+    margin: 0;
+    font-size: 3em; /* Larger text */
+}
+
+.welcome-section p {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+
+.login-section {
+    flex: 1;
+    padding: 40px 30px;
+    color: #f0f0f0; /* Light text */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background: #222;
+}
+
+.login-section h2 {
+    margin: 0;
+    font-size: 2em; /* Larger heading */
+    align-items: center;
+}
+
+.login-section h2 span {
+    color: #00ccff; /* Lighter blue for emphasis */
+}
+
+.login-section p {
+    margin: 15px 0 25px;
+    font-size: 1em;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 1em;
+    margin-bottom: 7px;
+}
+
+input {
+    margin-bottom: 20px;
+    padding: 12px;
+    font-size: 1.1em;
+    border: 1px solid #444;
+    border-radius: 8px;
+    background-color: #333;
+    color: #fff;
+}
+
+input:focus {
+    border-color: #00ccff;
+    outline: none;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 0.95em;
+}
+
+button {
+    background: linear-gradient(135deg, #0066cc, #00ccff);
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #005bb5, #0099cc); /* Darker hover effect */
+}
+
+.create-account {
+    text-align: center;
+    margin-top: 20px;
+    color: #ffffff;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.create-account:hover {
+    text-decoration: underline;
+    color: #00b0e6; /* Slightly different color for hover effect */
+}
